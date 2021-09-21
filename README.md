@@ -20,7 +20,7 @@ such as:
 
 then in your main method:
 	+ if __name__ == '__main__':
-	+     Node('root', Node('left_child'), Node('right_child'))
+	+     root = Node('root', Node('left_child'), Node('right_child'))
 '''
 
 Structure(root).print()
